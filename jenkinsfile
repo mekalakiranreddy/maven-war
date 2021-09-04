@@ -1,0 +1,16 @@
+pipeline {
+
+  agent any
+  
+     stages {
+
+       stage('Git-Checkout') {
+        steps {
+            echo 'Checkout code from git repository'
+               }
+               
+            }
+             
+      }
+ }
+          
